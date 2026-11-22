@@ -1,5 +1,5 @@
 from torch import tensor, float32, nn, optim, save
-from netxor import netXOR
+from xornet import XORnet
 
 x = tensor(
     [
@@ -17,7 +17,7 @@ y = tensor([
     [0]
 ], dtype=float32)
 
-m = netXOR()
+m = XORnet()
 the_goat_optim = optim.AdamW(m.parameters(), lr=0.01)
 
 def train(x,y, epoch:int):

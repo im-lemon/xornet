@@ -1,6 +1,7 @@
 import torch
-
-model = torch.load('netxor.pt', weights_only=False)
+print('XORnet CLI')
+print()
+model = torch.load('xornet.pt', weights_only=False)
 
 
 def inference(a,b):

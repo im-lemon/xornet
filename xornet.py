@@ -1,6 +1,6 @@
 import torch.nn as nn, torch
 
-class netXOR(nn.Module):
+class XORnet(nn.Module):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 

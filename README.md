@@ -1,6 +1,6 @@
 # xornet
 
-xornet is my first ML model i trained from scratch,
+xornet is my first ML model I trained from scratch,
 it was trained on a CPU, and reached a loss of 0.0004 on epoch 1000.
 
 The model consistently predicts the right XOR output.
